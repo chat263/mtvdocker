@@ -2,15 +2,6 @@
   "regions": ["sin1"],
   "version": 2,
   "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
+    { "src": "server.js", "use": "@vercel/node" }
   ]
 }
