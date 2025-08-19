@@ -1,3 +1,4 @@
+set HOSTNAME=0.0.0.0
 set PORT=3000
 set PASSWORD=Cist123!@#
 set USERNAME=cistadmin
